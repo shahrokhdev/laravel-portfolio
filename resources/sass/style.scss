@@ -1,0 +1,232 @@
+body {
+    background-color: black;
+
+    /* header menu */
+    .header-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    /* end header menu */
+
+    /* home page style */
+    .container {
+        margin-bottom: 1rem;
+    }
+    .biography {
+        h1 {
+            font-size: 2.3rem;
+            color: white;
+        }
+        h3 {
+            font-size: 1.6rem;
+            color: crimson;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #aaa;
+        }
+    }
+
+    .hire-me {
+        border-radius: 30px;
+        i {
+            font-size: 1rem;
+            border-radius: 20px;
+            color: crimson !important ;
+        }
+    }
+    .hire-me:hover {
+        width: 105%;
+    }
+    /* end home page style */
+
+    /* about page style */
+    .title-about-page,
+    .title-contact-page,
+    .title-projects-page,
+    .text-education,
+    .text-skills {
+        font-size: 2.5rem !important;
+    }
+    .personal-info p {
+        font-size: 1rem;
+    }
+
+    .btn-download-cv {
+        background-color: crimson;
+        i {
+            color: crimson;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+    }
+
+    .statistics-project {
+        h1 {
+            font-size: 3.3rem;
+            color: crimson !important ;
+        }
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
+    .box-language:hover {
+        background-color: white !important;
+        p {
+            color: black !important;
+        }
+    }
+
+    .main-part {
+        p {
+            font-size: 1.5rem;
+        }
+    }
+
+    .main-education-part {
+        border-left: 1px solid gray;
+        .box-icon-education {
+            position: relative;
+            left: -9%;
+            top: -10%;
+            i {
+                color: white;
+                background-color: crimson;
+                font-size: 2rem;
+            }
+        }
+        .date {
+            font-size: 14px;
+        }
+    }
+    .details-paragraph {
+        font-size: 14px !important;
+        color: gray;
+    }
+
+    @media screen and (max-width: 992px) {
+        .title-info {
+            text-align: center !important;
+            font-size: 22px !important;
+        }
+        .about-main-box {
+            flex-direction: column !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+    }
+    /* end about page style */
+
+    /* projects page style  */
+    .projects-info-box {
+        position: relative;
+    }
+    .main-box {
+        position: relative !important;
+        width: 100%;
+        height: 40vh;
+    }
+    .hidden-box {
+        position: absolute;
+        top: 0;
+        left: 1%;
+        width: 99%;
+        height: 40vh;
+        opacity: 0;
+        transition: opacity 0.3s ease-in;
+    }
+    .projects-info-box:hover .hidden-box {
+        opacity: 1;
+    }
+    .projects-info-box:hover .main-box {
+        opacity: 0;
+    }
+    .project-banner {
+        height: 40vh;
+    }
+    /* end projects style  */
+
+    /* contact page style */
+    .contact-info-text {
+        color: #aaa;
+        font-size: 14px;
+    }
+    .span-info {
+        color: #aaa;
+        font-size: 16px;
+    }
+    .input-contact {
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        box-shadow: none !important;
+    }
+    .social-icon {
+        background-color: rgb(37, 37, 37) !important;
+        color: white !important;
+        &:hover {
+            background-color: crimson !important;
+        }
+    }
+    .icon-info {
+        color: crimson;
+        font-size: 24px;
+    }
+
+    .btn-sub {
+        border-radius: 20px;
+        background-color: crimson;
+        &:hover {
+            background-color: white !important;
+            color: black !important;
+        }
+    }
+    /* end contact page style */
+
+    /* footer menu */
+    .menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .hvr-grow-shadow {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+    .hvr-grow-shadow:hover,
+    .hvr-grow-shadow:focus,
+    .hvr-grow-shadow:active {
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    ul li:not(.nav-settings) {
+        width: 10%;
+        font-size: 16px !important;
+        i {
+            color: black;
+        }
+    }
+    ul li:not(.nav-settings):hover  {
+        background-color: crimson;
+        & i {
+            color: white;
+            font-size: 30px !important;
+        }
+    }
+}

@@ -1,0 +1,211 @@
+body {
+  background-color: black;
+  /* header menu */
+  /* end header menu */
+  /* home page style */
+  /* end home page style */
+  /* about page style */
+  /* end about page style */
+  /* projects page style  */
+  /* end projects style  */
+  /* contact page style */
+  /* end contact page style */
+  /* footer menu */
+}
+body .header-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+body .container {
+  margin-bottom: 1rem;
+}
+body .biography h1 {
+  font-size: 2.3rem;
+  color: white;
+}
+body .biography h3 {
+  font-size: 1.6rem;
+  color: crimson;
+}
+body .biography p {
+  font-size: 1.1rem;
+  color: #aaa;
+}
+body .hire-me {
+  border-radius: 30px;
+}
+body .hire-me i {
+  font-size: 1rem;
+  border-radius: 20px;
+  color: crimson !important;
+}
+body .hire-me:hover {
+  width: 105%;
+}
+body .title-about-page,
+body .title-contact-page,
+body .title-projects-page,
+body .text-education,
+body .text-skills {
+  font-size: 2.5rem !important;
+}
+body .personal-info p {
+  font-size: 1rem;
+}
+body .btn-download-cv {
+  background-color: crimson;
+}
+body .btn-download-cv i {
+  color: crimson;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+body .statistics-project h1 {
+  font-size: 3.3rem;
+  color: crimson !important;
+}
+body .statistics-project p {
+  font-size: 1.1rem;
+}
+body .box-language:hover {
+  background-color: white !important;
+}
+body .box-language:hover p {
+  color: black !important;
+}
+body .main-part p {
+  font-size: 1.5rem;
+}
+body .main-education-part {
+  border-left: 1px solid gray;
+}
+body .main-education-part .box-icon-education {
+  position: relative;
+  left: -9%;
+  top: -10%;
+}
+body .main-education-part .box-icon-education i {
+  color: white;
+  background-color: crimson;
+  font-size: 2rem;
+}
+body .main-education-part .date {
+  font-size: 14px;
+}
+body .details-paragraph {
+  font-size: 14px !important;
+  color: gray;
+}
+@media screen and (max-width: 992px) {
+  body .title-info {
+    text-align: center !important;
+    font-size: 22px !important;
+  }
+  body .about-main-box {
+    flex-direction: column !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+body .projects-info-box {
+  position: relative;
+}
+body .main-box {
+  position: relative !important;
+  width: 100%;
+  height: 40vh;
+}
+body .hidden-box {
+  position: absolute;
+  top: 0;
+  left: 1%;
+  width: 99%;
+  height: 40vh;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+body .projects-info-box:hover .hidden-box {
+  opacity: 1;
+}
+body .projects-info-box:hover .main-box {
+  opacity: 0;
+}
+body .project-banner {
+  height: 40vh;
+}
+body .contact-info-text {
+  color: #aaa;
+  font-size: 14px;
+}
+body .span-info {
+  color: #aaa;
+  font-size: 16px;
+}
+body .input-contact {
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  box-shadow: none !important;
+}
+body .social-icon {
+  background-color: rgb(37, 37, 37) !important;
+  color: white !important;
+}
+body .social-icon:hover {
+  background-color: crimson !important;
+}
+body .icon-info {
+  color: crimson;
+  font-size: 24px;
+}
+body .btn-sub {
+  border-radius: 20px;
+  background-color: crimson;
+}
+body .btn-sub:hover {
+  background-color: white !important;
+  color: black !important;
+}
+body .menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+body .hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+body .hvr-grow-shadow:hover,
+body .hvr-grow-shadow:focus,
+body .hvr-grow-shadow:active {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+body ul li:not(.nav-settings) {
+  width: 25%;
+  font-size: 16px !important;
+}
+body ul li:not(.nav-settings) i {
+  color: crimson;
+}
+body ul li:not(.nav-settings):hover {
+  background-color: crimson;
+}
+body ul li:not(.nav-settings):hover i {
+  color: white;
+  font-size: 30px !important;
+}
